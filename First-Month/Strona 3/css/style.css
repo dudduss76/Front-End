@@ -1,0 +1,210 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    font-family: Arial;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: Arial;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Style tesktów */
+p, a, h1, h2, h3, h4
+{
+    font-family: 'Lato', sans-serif;
+    color: #444;
+}
+p
+{
+    line-height: 2em;
+}
+h1
+{
+    font-size: 60px;
+    color: #6e9171;
+    font-weight: 700;
+}
+h2
+{
+    font-size: 30px;
+}
+h3
+{
+    font-size: 25px;
+}
+h4
+{
+    font-size: 20px;
+}
+a
+{
+    text-decoration: none;
+}
+/* Style kontenerów, sekcji, nagłówków i stopki */
+.container
+{
+    width: 1000px;
+    margin: 0 auto;
+}
+#navigationContainer
+{
+    background: #DDD;
+    padding: 10px;
+    height: 50px;
+}
+#logoContainer
+{
+    float: left;
+    width: 225px;
+    text-align: center;
+    font-weight: 700
+}
+#logoContainer a
+{
+    display: block;
+    padding: 8px;
+}
+#baner
+{
+    clear: both;
+    text-align: center;
+    height: 150px;
+    padding: 50px 0;
+    background-image: url(../img/DronTlo.jpg);
+    background-attachment: inherit;
+    background-size: 100% 250px;
+}
+#info
+{
+    background: #DDD;
+}
+#info h3
+{
+    text-align: center;
+    padding: 20px 0;
+}
+.columnHalf
+{
+    float:left;
+    width: 50%;
+    height: 550px;
+    text-align: center;
+}
+.columnHalf h4
+{
+    padding: 10px 0;
+}
+.columnHalf p
+{
+    padding: 10px;
+}
+.columnHalf h2
+{
+    padding: 10px 0;
+}
+.button
+{
+    padding: 10px 0;
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    background: #CCC;
+}
+#social
+{
+    clear: both;
+    text-align: center;
+    padding: 20px 0;
+    background: #DDD;
+}
+.columnOneFour
+{
+    margin-top: 20px;
+    width: 25%;
+    float:left;
+    height: 100px;
+    text-align: center;
+    color: #EEE;
+}
+.container .columnOneFour:nth-child(2)
+{
+    background: #3b5998;
+}
+.container .columnOneFour:nth-child(3)
+{
+    background: #e52d27;
+}
+.container .columnOneFour:nth-child(4)
+{
+    background: #dd4b39;
+}
+.container .columnOneFour:nth-child(5)
+{
+    background: #36e527;
+}
+footer
+{
+    clear: both;
+    padding: 10px 0;
+    text-align: center;
+    font-weight: 700;
+    background: #DDD;
+}
+/* Style Menu */
+ul
+{
+    padding: 0;
+    margin: 0;
+}
+ul li a
+{
+    float: left;
+    width: 120px;
+    padding: 15px;
+    text-align: center;
+    background: #CCC;
+    border-right: 1px solid #888;
+}
+ul li:first-child a
+{
+    border-left: 1px solid #888;
+}
+ul li a:hover
+{
+    background: #BBB;
+}

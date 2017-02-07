@@ -1,0 +1,84 @@
+<!DOCTYPE>
+<html lang="pl">
+<head>
+    <title>Strona główna</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width = device-width"> 
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <header class="top">
+        <div class="container">
+            <div class="logoContainer">
+                <h2><a href="index.html">Dobreciastka.pl</a></h2>
+            </div>
+            <div class="menuContainer">
+                <ul>
+                    <li><a href="index.html">Strona główna</a></li>
+                    <li><a href="#.html">Galeria</a></li>
+                    <li><a href="#.html">Sklep</a></li>
+                    <li><a href="#.html">Kontakt</a></li>
+                </ul>
+            </div>
+        </div> 
+    </header>
+    
+    <section class="baner">
+        <div class="container">
+            <h1>Najlepsze ciastka w internecie</h1>
+            <p>Nasze ciastka produkujemy wyłącznie z polskich produktów zapraszamy do kupienia</p>
+            <a class="button" href="#.html">Sklep</a>
+        </div>
+    </section>
+    
+    <section class="info">
+        <div class="container">
+            <h2>W naszej ofercie</h2>
+            <div class="columnHalf">
+                <img src="img/ciastka1.jpg">
+                <p>Czekoladowe ciastka</p>
+            </div>
+            <div class="columnHalf">
+                <img src="img/ciastka2.jpg">
+                <p>Ciastka z nutellą</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="map">
+        <div class="container">
+            <h2>Gdzie nas znaleść</h2>
+            <div class="columnHalf">
+                <p>
+                    Warszawa 02-456 <br>
+                    Dworska 54a <br>
+                    Tel: +48 245 54 54 <br>
+                    Kom: 453 322 245
+                </p>
+            </div>
+            <div class="columnHalf">
+                <div id="map"></div>
+                
+                <script>
+                    function myMap() {
+                        var mapProp= 
+                        {
+                            center:new google.maps.LatLng(51.508742,-0.120850),
+                            zoom:5,
+                        };
+                        var map=new google.maps.Map(document.getElementById("map"),mapProp);
+                    }
+                </script>
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+                
+            </div>
+        </div>
+    </section>
+    
+    <section class="footer">
+        <div class="container">
+            <p>Dobre ciastka.pl &copy; 2017</p>
+        </div>
+    </section>
+</body>
+</html>
